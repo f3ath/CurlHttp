@@ -32,20 +32,16 @@ $response = $http->post('http://example.com/?a=b', 'my post data', ['User-Agent:
 $body = $response->getBody(); // Response body, string
 
 /*
-
 <!doctype html>
 <html>
 ...
 </html>
-
  */
 
 $statusCode = $response->getStatus(); // HTTP status, int
 
 /*
-
 200
-
  */
 
 $headers = $response->getHeaders(); // HTTP response headers, array
