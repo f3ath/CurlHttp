@@ -50,7 +50,6 @@ $statusCode = $response->getStatus(); // HTTP status, int
 
 $headers = $response->getHeaders(); // HTTP response headers, array
 /*
-
 array(
   0 => 'HTTP/1.1 200 OK',
   1 => 'Accept-Ranges: bytes',
@@ -66,6 +65,5 @@ array(
   11 => 'x-ec-custom-error: 1',
   12 => 'Content-Length: 1270',
 );
-
  */
 ```
